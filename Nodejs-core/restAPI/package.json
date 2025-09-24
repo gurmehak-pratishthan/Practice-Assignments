@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "imports": {
+    "#json": {
+      "default": "true"
+    }
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
