@@ -1,0 +1,27 @@
+Task 1 (Beginner – Writing & Reading a File)
+Create a program that:
+Creates a file called notes.txt.
+Writes the text "Hello, Node.js FS!" into it.
+Reads the content back from the file.
+Prints the content to the console.
+👉 Try this using fs.writeFileSync and fs.readFileSync (synchronous version).
+
+Task 2 (Beginner – Appending & Reading Async)
+Create a program that:
+Appends the text " Learning Node.js is fun!" to the file notes.txt.
+Reads the updated content of the file.
+Prints it to the console.
+👉 This time, use the asynchronous versions:
+fs.appendFile
+fs.readFile
+
+ask 3 (Intermediate – Rename & Delete)
+Create a program that:
+Renames notes.txt → myNotes.txt.
+Reads the file to confirm the rename worked.
+Deletes myNotes.txt.
+After deletion, try reading it again and handle the error gracefully (print something like "File not found" instead of crashing).
+👉 Use:
+fs.rename
+fs.unlink
+Proper error handling with err checks.
