@@ -34,9 +34,6 @@ async function manageList(city){
       await client.del(key);
     }
   }
-    
-  
-
 }
 app.get('/', (req, res) => {
   res.send('Hello, World!');
